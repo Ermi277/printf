@@ -9,7 +9,8 @@
 int _printf(const char * const format, ...)
 {
 	convert_match m[] = {
-		{"%s", printf_string}
+		{"%s", printf_string}, {"%c", printf_char},
+		{"%%", printf_per}
 	};
 
 	int i = 0;
