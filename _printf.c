@@ -8,6 +8,10 @@
 
 int _printf(const char * const format, ...)
 {
+	convert_match m[] = {
+		{"%s", printf_string}
+	};
+
 	int i = 0;
 	int j;
 	int len = 0;
@@ -16,7 +20,7 @@ int _printf(const char * const format, ...)
 	va_start(args, format);
 	if (format == NULL || (format[0] == '%' && format[1] == '\0'))
 		return (-1);
-	while (format[i] != '\0'')
+	while (format[i] != '\0')
 	{
 		j = 13;
 		while (j >= 0)
