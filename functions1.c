@@ -2,8 +2,13 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
+<<<<<<< HEAD
  * print_unsigned - Prints  unsigned number
  * @types: List of arguments
+=======
+ * print_unsigned - Prints unsigned number
+ * @types: List a of arguments
+>>>>>>> ad0165c4c9abcf9a814705026d6c1e7bf7ec4acf
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get the width
